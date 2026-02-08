@@ -64,6 +64,5 @@ File:
 
 ---
 
-## Tujuan Portfolio
-Portfolio ini dibuat sebagai bagian dari perjalanan career switch dari IT Support ke Technical Writer.
+
 
