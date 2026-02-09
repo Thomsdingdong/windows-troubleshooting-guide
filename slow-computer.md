@@ -1,49 +1,83 @@
-# Mengatasi Komputer Terasa Lambat 
+# Slow Computer Troubleshooting Guide
 
-## OVERVIEW
-Panduan ini adalah langkah-langkah mengatasi Komputer yang terasa lambat untuk operating Windows 
+## Overview
+Panduan ini berisi langkah-langkah troubleshooting untuk mengatasi komputer Windows yang berjalan lambat. Masalah performa biasanya berkaitan dengan penggunaan resource sistem, aplikasi startup, atau file sementara yang menumpuk.
 
 ---
 
 ## Gejala
-- Komputer lambat umumnya disebabkan oleh RAM penuh, penyimpanan (hard disk) hampir habis, terlalu banyak aplikasi startup
+Beberapa tanda komputer mengalami penurunan performa:
+
+- Sistem membutuhkan waktu lama untuk booting
+- Aplikasi terbuka dengan lambat
+- Komputer sering freeze
+- CPU atau RAM usage tinggi
+- Penyimpanan hampir penuh
 
 ---
 
-## Troubleshooting steps or optimization steps
+## Kemungkinan Penyebab
+- Terlalu banyak aplikasi startup
+- File temporary menumpuk
+- Penyimpanan hampir penuh
+- Penggunaan RAM tinggi
+- Sistem belum di-restart dalam waktu lama
+
+---
+
+## Troubleshooting Steps
 
 ### 1. Restart Komputer
-Lakukan restart komputer dengan salah satu cara berikut:
-  - menu Start > Power > Restart.
-  - tombol keyboard Alt + F4 di desktop.
-  - tombol keyboard Ctrl + Alt + Del.
-  - tombol keyboard Windows + X.
+Restart membantu membersihkan memory sementara dan menghentikan proses yang tidak diperlukan.
+
+Langkah:
+- Klik **Start → Power → Restart**
 
 ---
 
-### 2.  Matikan Aplikasi startup
-Matikan Aplikasi Startup: Buka Task Manager (Ctrl+Shift+Esc), pilih tab Startup, dan nonaktifkan aplikasi yang tidak perlu berjalan otomatis.
+### 2. Nonaktifkan Aplikasi Startup
+Mengurangi aplikasi startup dapat mempercepat proses booting dan meningkatkan performa sistem.
+
+Langkah:
+1. Tekan `Ctrl + Shift + Esc` untuk membuka **Task Manager**
+2. Pilih tab **Startup**
+3. Klik aplikasi yang tidak diperlukan
+4. Klik **Disable**
 
 ---
 
-### 3. Hapus File Sampah (Cache)
-1. Menggunakan Disk Cleanup (Bawaan Windows):
-   - Ketik "Disk Cleanup" pada menu Start dan pilih drive (biasanya C:).
-   - Centang file yang ingin dihapus (Temporary files, Recycle Bin, Thumbnails, dll).
-   - Klik "OK" dan konfirmasi "Delete Files".
-   - Klik "Clean up system files" untuk pembersihan lebih mendalam.
-     
-2. Menghapus File Temp/Temporary (Manual):
-   - Tekan Windows + R pada keyboard, ketik %temp%, lalu tekan Enter.
-   - Hapus semua file di dalam folder tersebut (lewati jika file sedang digunakan).
-   - Tekan Windows + R lagi, ketik temp (tanpa persen), lalu hapus isinya.
-   - Tekan Windows + R lagi, ketik prefetch, lalu hapus isinya.
+### 3. Hapus File Temporary
+Membersihkan file sementara dapat mengosongkan ruang penyimpanan dan meningkatkan performa.
 
-3. Mengosongkan Recycle Bin:
-   - Klik kanan ikon Recycle Bin di desktop.
-   - Pilih Empty Recycle Bin.
+#### Menggunakan Disk Cleanup
+1. Buka **Start Menu**
+2. Ketik **Disk Cleanup**
+3. Pilih drive sistem (biasanya `C:`)
+4. Pilih file yang ingin dihapus
+5. Klik **OK**
+
+#### Menghapus Folder Temp Secara Manual
+1. Tekan `Windows + R`
+2. Ketik `%temp%`
+3. Hapus file di dalam folder
+4. Ulangi dengan mengetik:
+   - `temp`
+   - `prefetch`
+
+---
+
+### 4. Periksa Kapasitas Penyimpanan
+Pastikan drive sistem memiliki ruang kosong minimal 20%.
+
+Langkah:
+1. Buka **File Explorer**
+2. Klik **This PC**
+3. Periksa kapasitas drive `C:`
 
 ---
 
 ## Hubungi IT Support Jika
-- sudah melakukan steps tetapi komputer masih terasa lambat
+- Komputer tetap lambat setelah troubleshooting
+- Penggunaan CPU atau RAM tetap tinggi
+- Terdapat indikasi kerusakan hardware
+
