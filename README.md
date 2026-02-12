@@ -1,69 +1,103 @@
 # Windows Troubleshooting Guide
-Technical troubleshooting documentation for Windows environment.
-Technical documentation portfolio by Thomsdingdong.
 
-Repository ini berisi kumpulan dokumentasi troubleshooting Windows dan perangkat yang umum terjadi di lingkungan kerja IT support.
+Technical documentation portfolio focused on Windows troubleshooting and IT support knowledge base documentation.
 
-Dokumentasi ditulis dengan pendekatan knowledge base dan user documentation.
+Author: Thomsdingdong  
+Role Target: Technical Writer (Software / IT Documentation)
 
 ---
 
-## Daftar Dokumentasi
+## 📌 About This Repository
 
-### Printer Troubleshooting
-Panduan mengatasi printer tidak terdeteksi di Windows.
+This repository contains structured troubleshooting documentation based on real-world IT support experience.
+
+The documentation is written using a knowledge base and user documentation approach, commonly used in:
+
+- IT Support Teams
+- Internal IT Documentation
+- SaaS Help Centers
+- Technical Support Knowledge Bases
+
+All guides follow a consistent structure:
+- Overview
+- Symptoms
+- Possible Causes
+- Troubleshooting Steps
+- Escalation
+
+---
+
+## 📂 Documentation List
+
+### 🖨 Printer Troubleshooting
+Guide for resolving printer detection and connection issues in Windows.
 
 File:
-- printer-troubleshooting.md
+- `printer-troubleshooting.md`
 
 ---
 
-### Windows Update Gagal
-Panduan mengatasi Windows Update yang gagal.
+### 🔄 Windows Update Issue
+Guide for troubleshooting failed or stuck Windows updates.
 
 File:
-- windows-update.md
+- `windows-update.md`
 
 ---
 
-### Komputer Lambat
-Langkah troubleshooting komputer dengan performa lambat.
+### 🐢 Slow Computer
+Step-by-step troubleshooting for performance issues on Windows machines.
 
 File:
-- slow-computer.md
+- `slow-computer.md`
 
 ---
 
-### Tidak Bisa Login Windows
-Panduan troubleshooting login Windows.
+### 🔐 Windows Login Issue
+Troubleshooting guide for Windows login failures, domain errors, and profile issues.
 
 File:
-- login-issue.md
+- `login-issue.md`
 
 ---
 
-### Blue Screen (BSOD)
-Panduan dasar troubleshooting blue screen.
+### 🌐 Network Connection Issue
+Guide for diagnosing Windows devices that cannot connect to the internet.
 
 File:
-- bsod.md
+- `network-issue.md`
 
 ---
 
-### Network Tidak Terhubung
-Panduan troubleshooting koneksi jaringan.
+### 💻 Blue Screen (BSOD)
+Basic troubleshooting documentation for handling Blue Screen of Death errors.
 
 File:
-- network-issue.md
+- `bsod.md`
 
 ---
 
-## Tools
+## 🛠 Tools Used
+
 - Markdown
+- Git
 - GitHub
-- Windows OS
+- Visual Studio Code
 
 ---
 
+## 🎯 Purpose
 
+This repository is part of my transition from IT Support to Technical Writer, demonstrating:
 
+- Structured documentation writing
+- Clear troubleshooting flow
+- Technical accuracy
+- Knowledge base formatting
+- Git-based documentation workflow
+
+---
+
+## 📬 Contact
+
+GitHub: https://github.com/Thomsdingdong
