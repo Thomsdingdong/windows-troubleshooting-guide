@@ -1,83 +1,82 @@
 # Slow Computer Troubleshooting Guide
 
 ## Overview
-Panduan ini berisi langkah-langkah troubleshooting untuk mengatasi komputer Windows yang berjalan lambat. Masalah performa biasanya berkaitan dengan penggunaan resource sistem, aplikasi startup, atau file sementara yang menumpuk.
+This guide provides troubleshooting steps for Windows computers experiencing slow performance. Performance issues are commonly related to system resource usage, startup applications, or accumulated temporary files.
 
 ---
 
-## Gejala
-Beberapa tanda komputer mengalami penurunan performa:
+## Symptoms
+Common indicators of slow computer performance include:
 
-- Sistem membutuhkan waktu lama untuk booting
-- Aplikasi terbuka dengan lambat
-- Komputer sering freeze
-- CPU atau RAM usage tinggi
-- Penyimpanan hampir penuh
+- Slow system startup (booting)
+- Applications take a long time to open
+- System freezing or lagging
+- High CPU or memory usage
+- Low available disk space
 
 ---
 
-## Kemungkinan Penyebab
-- Terlalu banyak aplikasi startup
-- File temporary menumpuk
-- Penyimpanan hampir penuh
-- Penggunaan RAM tinggi
-- Sistem belum di-restart dalam waktu lama
+## Possible Causes
+- Too many startup applications
+- Accumulated temporary files
+- Low disk space
+- High memory usage
+- System has not been restarted for a long time
 
 ---
 
 ## Troubleshooting Steps
 
-### 1. Restart Komputer
-Restart membantu membersihkan memory sementara dan menghentikan proses yang tidak diperlukan.
+### 1. Restart the Computer
+Restarting clears temporary memory usage and stops unnecessary background processes.
 
-Langkah:
-- Klik **Start → Power → Restart**
-
----
-
-### 2. Nonaktifkan Aplikasi Startup
-Mengurangi aplikasi startup dapat mempercepat proses booting dan meningkatkan performa sistem.
-
-Langkah:
-1. Tekan `Ctrl + Shift + Esc` untuk membuka **Task Manager**
-2. Pilih tab **Startup**
-3. Klik aplikasi yang tidak diperlukan
-4. Klik **Disable**
+**Steps:**
+- Click **Start → Power → Restart**
 
 ---
 
-### 3. Hapus File Temporary
-Membersihkan file sementara dapat mengosongkan ruang penyimpanan dan meningkatkan performa.
+### 2. Disable Startup Applications
+Reducing startup applications can improve boot time and overall system performance.
 
-#### Menggunakan Disk Cleanup
-1. Buka **Start Menu**
-2. Ketik **Disk Cleanup**
-3. Pilih drive sistem (biasanya `C:`)
-4. Pilih file yang ingin dihapus
-5. Klik **OK**
+**Steps:**
+1. Press `Ctrl + Shift + Esc` to open **Task Manager**
+2. Select the **Startup** tab
+3. Select unnecessary applications
+4. Click **Disable**
 
-#### Menghapus Folder Temp Secara Manual
-1. Tekan `Windows + R`
-2. Ketik `%temp%`
-3. Hapus file di dalam folder
-4. Ulangi dengan mengetik:
+---
+
+### 3. Remove Temporary Files
+Cleaning temporary files can free up disk space and improve performance.
+
+#### Using Disk Cleanup
+1. Open **Start Menu**
+2. Type **Disk Cleanup**
+3. Select the system drive (usually `C:`)
+4. Select files to delete
+5. Click **OK**
+
+#### Manually Removing Temp Files
+1. Press `Windows + R`
+2. Type `%temp%` and delete the files
+3. Repeat the process with:
    - `temp`
    - `prefetch`
 
 ---
 
-### 4. Periksa Kapasitas Penyimpanan
-Pastikan drive sistem memiliki ruang kosong minimal 20%.
+### 4. Check Disk Space
+Ensure the system drive has at least 20% free space available.
 
-Langkah:
-1. Buka **File Explorer**
-2. Klik **This PC**
-3. Periksa kapasitas drive `C:`
+**Steps:**
+1. Open **File Explorer**
+2. Select **This PC**
+3. Check available space on drive `C:`
 
 ---
 
-## Hubungi IT Support Jika
-- Komputer tetap lambat setelah troubleshooting
-- Penggunaan CPU atau RAM tetap tinggi
-- Terdapat indikasi kerusakan hardware
-
+## Escalation
+Contact IT Support if:
+- The computer remains slow after completing all steps
+- CPU or memory usage remains abnormally high
+- There are signs of possible hardware failure
