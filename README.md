@@ -1,4 +1,6 @@
 # Windows Troubleshooting Guide
+Technical troubleshooting documentation for Windows environment.
+
 Technical documentation portfolio by Thomsdingdong.
 
 Repository ini berisi kumpulan dokumentasi troubleshooting Windows dan perangkat yang umum terjadi di lingkungan kerja IT support.
