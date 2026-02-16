@@ -11,14 +11,15 @@ Role Target: Technical Writer (Software / IT Documentation)
 
 This repository contains structured troubleshooting documentation based on real-world IT support experience.
 
-The documentation is written using a knowledge base and user documentation approach, commonly used in:
+The documentation is written using a **knowledge base** and **user documentation** approach, commonly used in:
 
-- IT Support Teams
-- Internal IT Documentation
-- SaaS Help Centers
-- Technical Support Knowledge Bases
+- IT Support teams
+- Internal IT documentation
+- SaaS help centers
+- Technical support knowledge bases
 
 All guides follow a consistent structure:
+
 - Overview
 - Symptoms
 - Possible Causes
@@ -27,53 +28,66 @@ All guides follow a consistent structure:
 
 ---
 
-## 📂 Documentation List
+## 📂 Repository Structure
+
+windows-troubleshooting-guide
+├─ README.md
+├─ docker/
+│ └─ docker-installation.md
+└─ windows/
+├─ bsod.md
+├─ login-issue.md
+├─ network-issue.md
+├─ printer-troubleshooting.md
+├─ sharing-printer.md
+├─ slow-computer.md
+└─ windows-update.md
+
+---
+
+## 📂 Windows Troubleshooting Documentation
 
 ### 🖨 Printer Troubleshooting
-Guide for resolving printer detection and connection issues in Windows.
-
-File:
-- `printer-troubleshooting.md`
+Guide for resolving printer detection and connection issues in Windows.  
+`windows/printer-troubleshooting.md`
 
 ---
 
 ### 🔄 Windows Update Issue
-Guide for troubleshooting failed or stuck Windows updates.
-
-File:
-- `windows-update.md`
+Guide for troubleshooting failed or stuck Windows updates.  
+`windows/windows-update.md`
 
 ---
 
 ### 🐢 Slow Computer
-Step-by-step troubleshooting for performance issues on Windows machines.
-
-File:
-- `slow-computer.md`
+Step-by-step troubleshooting for performance issues on Windows machines.  
+`windows/slow-computer.md`
 
 ---
 
 ### 🔐 Windows Login Issue
-Troubleshooting guide for Windows login failures, domain errors, and profile issues.
-
-File:
-- `login-issue.md`
+Troubleshooting guide for Windows login failures, domain errors, and profile issues.  
+`windows/login-issue.md`
 
 ---
 
 ### 🌐 Network Connection Issue
-Guide for diagnosing Windows devices that cannot connect to the internet.
-
-File:
-- `network-issue.md`
+Guide for diagnosing Windows devices that cannot connect to the internet.  
+`windows/network-issue.md`
 
 ---
 
 ### 💻 Blue Screen (BSOD)
-Basic troubleshooting documentation for handling Blue Screen of Death errors.
+Basic troubleshooting documentation for handling Blue Screen of Death errors.  
+`windows/bsod.md`
 
-File:
-- `bsod.md`
+---
+
+## 🐳 Docker Documentation
+
+### Docker Installation (Windows)
+Basic Docker Desktop installation guide using WSL.  
+`docker/docker-installation.md`
 
 ---
 
@@ -83,21 +97,24 @@ File:
 - Git
 - GitHub
 - Visual Studio Code
+- Docker
 
 ---
 
 ## 🎯 Purpose
 
-This repository is part of my transition from IT Support to Technical Writer, demonstrating:
+This repository is part of my transition from **IT Support to Technical Writer**, demonstrating:
 
 - Structured documentation writing
 - Clear troubleshooting flow
 - Technical accuracy
 - Knowledge base formatting
 - Git-based documentation workflow
+- Developer tooling familiarity
 
 ---
 
 ## 📬 Contact
 
-GitHub: https://github.com/Thomsdingdong
+GitHub:  
+https://github.com/Thomsdingdong
