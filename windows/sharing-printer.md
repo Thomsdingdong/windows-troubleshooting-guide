@@ -96,8 +96,8 @@ Use this method if the printer has its own IP address.
 - Driver installation repeatedly fails 
 - Multiple users are unable to connect 
 - The printer prints from the host device but not from client devices Provide the following information when escalating: 
-1. Printer model
-2. Connection type (Shared via PC or Direct Network)
-3. Printer IP address (if applicable)
-4. Error message displayed 
+    - Printer model
+    - Connection type (Shared via PC or Direct Network)
+    - Printer IP address (if applicable)
+    - Error message displayed 
 - Steps already performed
