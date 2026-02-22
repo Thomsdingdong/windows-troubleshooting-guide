@@ -103,14 +103,56 @@ Basic Docker Desktop installation guide using WSL.
 
 ## 🎯 Purpose
 
-This repository is part of my transition from **IT Support to Technical Writer**, demonstrating:
+---
 
-- Structured documentation writing
-- Clear troubleshooting flow
-- Technical accuracy
-- Knowledge base formatting
-- Git-based documentation workflow
-- Developer tooling familiarity
+## 🧭 Documentation Standards
+
+All documentation in this repository follows these principles:
+
+- Clear and task-oriented structure
+- Step-by-step procedural formatting
+- User-focused language
+- Logical troubleshooting flow
+- Consistent formatting and terminology
+- Escalation guidance when applicable
+
+---
+
+## 👥 Target Audience
+
+The documentation is written for:
+
+- End users
+- IT support staff
+- Helpdesk teams
+- Junior system administrators
+
+---
+
+## 🧩 Documentation Approach
+
+Each troubleshooting guide is structured as follows:
+
+1. Overview  
+2. Symptoms  
+3. Possible Causes  
+4. Troubleshooting Steps  
+5. Escalation Criteria  
+
+This structure mirrors real-world internal IT knowledge base documentation.
+
+---
+
+## 📈 Skills Demonstrated
+
+This repository demonstrates:
+
+- Technical writing fundamentals
+- Troubleshooting documentation
+- Information architecture
+- Markdown formatting
+- Git-based version control workflow
+- Structured content organization
 
 ---
 
