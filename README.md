@@ -40,6 +40,7 @@ All guides follow a consistent structure:
 
 ## 📂 Repository Structure
 
+```
 windows-troubleshooting-guide
 ├─ README.md
 ├─ LICENSE
@@ -53,6 +54,7 @@ windows-troubleshooting-guide
    ├─ sharing-printer.md
    ├─ slow-computer.md
    └─ windows-update.md
+```
 
 ---
 
