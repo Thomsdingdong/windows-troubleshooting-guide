@@ -54,7 +54,7 @@ If domain login fails, attempt login with a local account.
 
 1. Select **Other user** on the login screen
 2. Enter the username in the following format:
-                                            .\username
+                                            `.\username`
 
 3. Enter the local account password
 
