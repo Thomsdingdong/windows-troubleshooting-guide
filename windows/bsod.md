@@ -87,7 +87,7 @@ To scan for corrupted system files:
 
 1. Open **Command Prompt** as Administrator
 2. Run:
-          sfc /scannow
+          `sfc /scannow`
 
 Wait until the verification process reaches 100%.
 
