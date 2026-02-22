@@ -82,9 +82,10 @@ If IP appears invalid (e.g., 192.254.x.x), renew the IP:
 ### 4. Test Network Connectivity
 
 Run the following commands:
-                        ping 8.8.8.8
+- `ping 8.8.8.8`
+
 If successful, test DNS resolution:
-                        ping google.com
+- `ping google.com`
 
 - If IP ping works but domain ping fails, the issue may be DNS-related.
 - If both fail, check router or ISP connection.
