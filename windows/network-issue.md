@@ -64,7 +64,7 @@ If the adapter does not appear, check **Device Manager**:
 ### 3. Check IP Configuration
 
 Open **Command Prompt** as Administrator and run:
-                                                ipconfig
+                                                `ipconfig`
 
 Verify that:
 - The device has a valid IPv4 address
@@ -72,9 +72,11 @@ Verify that:
 - DNS server is present
 
 If IP appears invalid (e.g., 192.254.x.x), renew the IP:
-                                                ipconfig /release
-                                                ipconfig /renew
-                                                ipconfig /flushdns
+
+- `ipconfig /release`
+- `ipconfig /renew`
+- `ipconfig /flushdns`
+
 ---
 
 ### 4. Test Network Connectivity
