@@ -1,6 +1,6 @@
 # Windows Troubleshooting Guide
 
-This repository serves as a structured technical writing portfolio, showcasing troubleshooting documentation and software installation guides written using professional knowledge base standards.
+This repository serves as a structured technical writing portfolio, showcasing structured troubleshooting documentation and installation guides written using professional knowledge base standards.
 
 Author: Thomsdingdong  
 Role Target: Technical Writer (Software / IT Documentation)
@@ -42,16 +42,17 @@ All guides follow a consistent structure:
 
 windows-troubleshooting-guide
 ├─ README.md
+├─ LICENSE
 ├─ docker/
-│ └─ docker-installation.md
+│  └─ docker-installation.md
 └─ windows/
-├─ bsod.md
-├─ login-issue.md
-├─ network-issue.md
-├─ printer-troubleshooting.md
-├─ sharing-printer.md
-├─ slow-computer.md
-└─ windows-update.md
+   ├─ bsod.md
+   ├─ login-issue.md
+   ├─ network-issue.md
+   ├─ printer-troubleshooting.md
+   ├─ sharing-printer.md
+   ├─ slow-computer.md
+   └─ windows-update.md
 
 ---
 
@@ -112,6 +113,14 @@ Basic Docker Desktop installation guide using WSL.
 ---
 
 ## 🎯 Purpose
+
+This repository supports my transition from IT Support to Technical Writer by demonstrating:
+
+- Structured troubleshooting documentation
+- Clear and consistent formatting standards
+- Practical technical knowledge translation
+- Real-world documentation workflow using Git
+- Professional repository organization
 
 ---
 
