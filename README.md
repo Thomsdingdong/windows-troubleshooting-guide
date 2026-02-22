@@ -1,6 +1,6 @@
 # Windows Troubleshooting Guide
 
-Technical documentation portfolio focused on Windows troubleshooting and IT support knowledge base documentation.
+This repository serves as a structured technical writing portfolio, showcasing troubleshooting documentation and software installation guides written using professional knowledge base standards.
 
 Author: Thomsdingdong  
 Role Target: Technical Writer (Software / IT Documentation)
@@ -25,6 +25,16 @@ All guides follow a consistent structure:
 - Possible Causes
 - Troubleshooting Steps
 - Escalation
+
+---
+
+## 📑 Table of Contents
+
+- [Windows Documentation](#-windows-documentation)
+- [Docker Documentation](#-docker-documentation)
+- [Tools Used](#-tools-used)
+- [Purpose](#-purpose)
+- [Contact](#-contact)
 
 ---
 
