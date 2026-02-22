@@ -95,7 +95,7 @@ If the printer is not automatically detected:
 ### 6. Test Network Connectivity (For Network Printers)
 
 Open **Command Prompt** and run:
-                                ping <printer_IP_address>
+- `ping <printer_IP_address>`
 
 If the ping fails, verify network configuration or router settings.
 
